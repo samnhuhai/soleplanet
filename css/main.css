@@ -1,0 +1,240 @@
+/* CSS Document */
+*{ margin: 0;
+	padding: 0;	
+	font-family: arial, Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+/*wrapper*/
+
+.wrapper {
+	width: 1300px;
+	height: 1720px;
+	margin: 0 auto;
+}
+
+/*header*/
+		.header {
+			width: 1300px;
+			height: 135px;
+
+			}
+.header #menu{
+			width: 500px;
+			height: 135px;
+			float: left;
+			
+}
+#menu #topmenu li {
+		list-style-type: none;
+		display: inline-block;
+		padding: 5px 5px;
+		margin-left: 9px;
+		font-size: 16px;
+		margin-top: 50px;
+	
+		
+		
+}
+a{ text-decoration: none;
+	color: black;
+}
+.header #logo{
+			width: 300px;
+			height: 135px;
+			float: left;
+			text-align: center;
+			
+	}
+.header #logo img{
+	margin-top: 25px;
+	}
+
+.header #sreach{
+			width: 500px;
+			height: 135px;
+			float: right;
+			text-align: left;
+			} 
+
+#sreach  input[type=text] {
+  float: left;
+  padding: 10px 80px;
+  border: 1px solid black;
+  margin-top: 46px;
+  margin-left: 70px;
+  font-size: 20px;
+}
+
+		
+	
+
+/*destination*/
+   		.destination{width: 1300px;
+			height: 600px;
+}
+.pp{
+			width: 820px;
+			height: 100px;
+			margin: 0 auto;
+}
+h3{
+	font-size: 30px;
+	padding: 50px;
+}
+	
+.box1{		width: 300px;
+			height: 440px;
+			float: left;	
+			margin-left: 35px;
+			margin-top: 10px;
+			background-image: url(../img/pic1.jpg);
+			background-color: #cccccc;
+			background-position: center;
+			background-size: cover;}
+			
+.box2{		width: 300px;
+			height: 440px;
+			float: left;	
+			margin-left: 10px;
+			margin-top: 10px;
+			background-image: url(../img/pic3.jpg);
+			background-color: #cccccc;
+			background-position: center;
+			background-size: cover;
+}
+.box3{		width: 300px;
+			height: 440px;
+			float: left;	
+			margin-left: 10px;
+			margin-top: 10px;
+			background-image: url(../img/city.jpg);
+			background-color: #cccccc;
+			background-position: center;
+			background-size: cover;			
+}
+.box4{		width: 300px;
+			height: 440px;
+			float: left;	
+			margin-left: 10px;
+			margin-top: 10px;
+			background-image: url(../img/pic5.jpg);
+			background-color: #cccccc;
+			background-position: center;
+			background-size: cover;
+}
+.title { margin-top: 370px}
+h1 a{ 	color: #FFFFFF;
+		font-size: 30px;
+		font-display: none;}
+
+/*explore*/
+
+		.explore{
+			width: 1300px;
+			height: 240px;
+			margin-top: 30px;
+}
+.minibox{
+			width: 130px;
+			height: 130px;
+			float: left;
+			margin-left: 29px;
+			margin-top: 20px;
+}
+
+
+
+
+/*story*/
+
+		.story{
+			width: 1250px;
+			height: 610px;
+			margin: 0 auto;
+			margin-top: 30px;
+
+}
+.story .big{
+			width: 1250px;
+			height: 250px;
+	
+}
+.big .imgst {
+			width: 800px;
+			height: 250px;
+			background-image: url(../img/bigst.jpg);
+			background-position: center;
+			background-size: cover;
+			float: left
+		
+}
+.big .contentst{
+			width: 430px;
+			height: 190px;
+			float: right;
+			text-align: left;
+			margin-top: 52px;
+	
+}
+
+.story .big1{
+			width: 1250px;
+			height: 250px;
+			margin-top: 50px;
+	
+}
+.big1 .imgst1 {
+			width: 800px;
+			height: 250px;
+			background-image: url(../img/pic.jpg);
+			background-position: center;
+			background-size: cover;
+			float: right;
+		
+}
+.big1 .contentst1{
+			width: 430px;
+			height: 190px;
+			float: left;
+			margin-top: 35px;
+	
+}
+h6{line-height: 30px;}
+p {line-height: 30px;}
+/*footer*/
+
+		.footer{
+			width: 1300px;
+			height: 120px;	
+			border-top: 1px solid black;
+			margin-top: 30px;
+}
+
+.footer .menubt {
+			width: 900px;
+			height: 100px;
+			padding-bottom: 40px;
+			float: left;
+			margin-left: 100px;
+	
+}
+.footer .menubt li {
+		list-style-type: none;
+		display: inline-block;
+		padding: 5px 5px;
+		margin-left: 80px;
+		font-size: 16px;
+		margin-top: 35px;
+	}
+a{ text-decoration: none;
+	color: black;
+}
+
+
+.footer .social {
+			width: 120px;
+			height: 90px;
+			float: left;
+			margin-right: 130px;
+			padding: 20px 25px;
+			
+}
